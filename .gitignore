@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+frontend/.env.local
+backend/src/main/resources/application-local.yml
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+frontend/.vercel/
+*.tsbuildinfo
+
+# Java / Maven
+backend/target/
+backend/.mvn/timing.properties
+*.class
+*.jar
+*.war
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Logs and temporary files
+*.log
+tmp/
+output/
+
